@@ -1,0 +1,92 @@
+<html>
+   <head>
+    <title>Registration Page</title>
+    <style>
+       #entire{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         #pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            #image{
+               height: 600px;
+               width: 500px;
+            }
+            #inp{
+               display: flex;
+               justify-content: center;
+               align-items: start;
+               flex-direction: column;
+               /*padding-bottom: 15px;*/
+               background-color: rgb(110, 216, 110);
+               height: 600px;
+               gap: 5px;
+               width: 500px;
+            }
+         }
+      }
+    </style>
+   </head> 
+   <body>
+    <div id="entire">
+      <div id="pic">
+         <img id="image" src="https://static.vecteezy.com/system/resources/previews/002/437/945/large_2x/illustration-of-a-login-account-free-vector.jpg" alt="hello">
+        
+            <div id="inp">
+               <label for="email"><b>Email:</b></label>
+               <input type="text" placeholder="Enter email" name="email" >
+               <label for="psw"><b>Password:</b></label>
+               <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+               <label for="res"><b>Reset Password:</b></label>
+               <input type="reset password" placeholder="Enter Password" name="res" id="res" required>
+         
+    <!--- RADIO BUTTONS , CHECH BOX--->
+
+               <label for="gen">Gender:</label>
+               <label for="gen">Femaler</label><input type="radio" name="gen">
+               <label for="gen">male</label>
+               <input type="radio" name="gen">
+               <label for="fav color">favourite color:</label>
+               <label for="fav color">black</label>
+               <input type="checkbox" name="gen">
+               <label for="fav color">white</label>
+               <input type="checkbox" name="gen">
+               <label for="fav color">green</label>
+               <input type="checkbox" name="gen">
+               
+      <!---DROP DOWN button--->
+
+               <select name="drop" id="sports" >
+                  <option value="shuttle">cart</option>
+                  <option value="shuttle">Shuttle</option>
+                  <option value="shuttle">Tennis</option>
+                  <option value="shuttle">Hockey</option>
+               </select>
+
+      <!---DATE,NUMBERS,DATE and TIME--->
+
+               <input type="date" >
+               <input type="number" placeholder="enter your number">
+               <input type="datetime-local" >
+
+      <!---submit ,reset---->
+
+               <button type="submit" class="registerbtn">Register</button>
+               <button type="reset" class ="reset">Reset</button>
+         </div>
+      
+      </div>
+       
+    </div>
+   </body>
+</html>
+        
+
+
+
+
+      
